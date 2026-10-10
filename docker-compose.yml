@@ -1,0 +1,50 @@
+# OmniLife AI - run everything with one command.
+#
+#   docker compose up --build                       backend + frontend (SQLite)
+#   docker compose --profile postgres up --build    also start PostgreSQL
+#
+# Requires a .env file (copy .env.example).
+# Ollama (the local LLM) runs on your own machine, not in a container, so the
+# model you already downloaded is reused:  ollama pull llama3
+
+services:
+  backend:
+    build: .
+    env_file: .env
+    environment:
+      # inside the container, Ollama on the host is reached like this:
+      OLLAMA_HOST: http://host.docker.internal:11434
+      # Plain SQLite stored in the mounted ./database folder. To use PostgreSQL
+      # set DATABASE_URL in .env to the postgres service (see .env.example).
+      DATABASE_URL: ${DATABASE_URL:-sqlite:////app/database/app.db}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"   # makes the line above work on Linux
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./database:/app/database
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    profiles: ["postgres"]
+    environment:
+      POSTGRES_USER: omnilife
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: omnilife
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  pgdata:

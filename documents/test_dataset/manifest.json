@@ -1,0 +1,480 @@
+{
+  "documents": [
+    {
+      "slug": "internship_certificate",
+      "filename": "internship_certificate.pdf",
+      "title": "Internship Certificate - Web Development",
+      "category": "certificate",
+      "tags": [
+        "certificate",
+        "internship",
+        "web development",
+        "abc technologies"
+      ],
+      "summary": "Internship certificate from ABC Technologies for web development completed in 2025."
+    },
+    {
+      "slug": "python_course_certificate",
+      "filename": "python_course_certificate.pdf",
+      "title": "Python Programming Course Certificate",
+      "category": "certificate",
+      "tags": [
+        "certificate",
+        "python",
+        "course",
+        "programming"
+      ],
+      "summary": "Course completion certificate for Python programming with data structures, OOP and file handling."
+    },
+    {
+      "slug": "hackathon_certificate",
+      "filename": "hackathon_certificate.pdf",
+      "title": "Hackathon Participation Certificate",
+      "category": "certificate",
+      "tags": [
+        "certificate",
+        "hackathon",
+        "participation",
+        "college"
+      ],
+      "summary": "Participation certificate for a 24 hour college hackathon on smart campus ideas."
+    },
+    {
+      "slug": "ml_nptel_certificate",
+      "filename": "ml_nptel_certificate.pdf",
+      "title": "Machine Learning Course Certificate (NPTEL style)",
+      "category": "certificate",
+      "tags": [
+        "certificate",
+        "machine learning",
+        "nptel",
+        "ai"
+      ],
+      "summary": "Certificate for completing an eight week machine learning course with a final exam score of 78 percent."
+    },
+    {
+      "slug": "cybersecurity_workshop_certificate",
+      "filename": "cybersecurity_workshop_certificate.pdf",
+      "title": "Cybersecurity Workshop Certificate",
+      "category": "certificate",
+      "tags": [
+        "certificate",
+        "cybersecurity",
+        "workshop",
+        "security"
+      ],
+      "summary": "Certificate for attending a two day cybersecurity workshop on network security and ethical hacking basics."
+    },
+    {
+      "slug": "ml_notes",
+      "filename": "ml_notes.pdf",
+      "title": "Machine Learning Notes - Semester 2",
+      "category": "notes",
+      "tags": [
+        "notes",
+        "machine learning",
+        "mca",
+        "ai",
+        "semester 2"
+      ],
+      "summary": "Notes explaining supervised learning, classification, regression and clustering with examples."
+    },
+    {
+      "slug": "os_notes",
+      "filename": "os_notes.pdf",
+      "title": "Operating Systems Notes",
+      "category": "notes",
+      "tags": [
+        "notes",
+        "operating systems",
+        "mca",
+        "process",
+        "scheduling"
+      ],
+      "summary": "Notes on processes, threads, CPU scheduling algorithms, deadlocks and memory management."
+    },
+    {
+      "slug": "dbms_notes",
+      "filename": "dbms_notes.pdf",
+      "title": "DBMS Notes - Normalization and SQL",
+      "category": "notes",
+      "tags": [
+        "notes",
+        "dbms",
+        "sql",
+        "normalization",
+        "database"
+      ],
+      "summary": "Database notes covering ER model, normalization up to BCNF, SQL joins and transactions."
+    },
+    {
+      "slug": "cn_notes",
+      "filename": "cn_notes.pdf",
+      "title": "Computer Networks Notes",
+      "category": "notes",
+      "tags": [
+        "notes",
+        "computer networks",
+        "osi",
+        "tcp/ip",
+        "networking"
+      ],
+      "summary": "Notes on the OSI and TCP/IP models, IP addressing, routing, DNS and common protocols."
+    },
+    {
+      "slug": "ds_notes",
+      "filename": "ds_notes.pdf",
+      "title": "Data Structures and Algorithms Notes",
+      "category": "notes",
+      "tags": [
+        "notes",
+        "data structures",
+        "algorithms",
+        "stack",
+        "tree"
+      ],
+      "summary": "Notes on arrays, linked lists, stacks, queues, trees, graphs and sorting algorithms with complexity."
+    },
+    {
+      "slug": "mock_aadhaar_card",
+      "filename": "mock_aadhaar_card.pdf",
+      "title": "Mock Aadhaar Card",
+      "category": "identity",
+      "tags": [
+        "identity",
+        "aadhaar",
+        "government id",
+        "mock"
+      ],
+      "summary": "Mock Aadhaar identity card with a fake 12 digit number for demo purposes only."
+    },
+    {
+      "slug": "mock_pan_card",
+      "filename": "mock_pan_card.pdf",
+      "title": "Mock PAN Card",
+      "category": "identity",
+      "tags": [
+        "identity",
+        "pan",
+        "tax",
+        "mock"
+      ],
+      "summary": "Mock PAN card with a fake permanent account number for demo purposes only."
+    },
+    {
+      "slug": "mock_passport",
+      "filename": "mock_passport.pdf",
+      "title": "Mock Passport",
+      "category": "identity",
+      "tags": [
+        "identity",
+        "passport",
+        "travel",
+        "mock"
+      ],
+      "summary": "Mock passport data page with fictional details for demo purposes only."
+    },
+    {
+      "slug": "mock_driving_licence",
+      "filename": "mock_driving_licence.pdf",
+      "title": "Mock Driving Licence",
+      "category": "identity",
+      "tags": [
+        "identity",
+        "driving licence",
+        "transport",
+        "mock"
+      ],
+      "summary": "Mock driving licence with fictional holder details, valid for light motor vehicles."
+    },
+    {
+      "slug": "mock_voter_id",
+      "filename": "mock_voter_id.pdf",
+      "title": "Mock Voter ID Card",
+      "category": "identity",
+      "tags": [
+        "identity",
+        "voter id",
+        "election",
+        "mock"
+      ],
+      "summary": "Mock voter identity card with a fictional EPIC number for demo purposes only."
+    },
+    {
+      "slug": "laptop_invoice",
+      "filename": "laptop_invoice.pdf",
+      "title": "Laptop Purchase Invoice",
+      "category": "invoice",
+      "tags": [
+        "invoice",
+        "laptop",
+        "electronics",
+        "finance",
+        "purchase"
+      ],
+      "summary": "Tax invoice for a laptop purchase with a total of Rs. 58,990 including GST and a one year warranty."
+    },
+    {
+      "slug": "grocery_receipt",
+      "filename": "grocery_receipt.pdf",
+      "title": "Grocery Store Receipt",
+      "category": "invoice",
+      "tags": [
+        "invoice",
+        "grocery",
+        "receipt",
+        "finance",
+        "shopping"
+      ],
+      "summary": "Supermarket receipt for groceries including rice, milk, vegetables and fruits totalling Rs. 1,245."
+    },
+    {
+      "slug": "electricity_bill",
+      "filename": "electricity_bill.pdf",
+      "title": "Electricity Bill - August 2025",
+      "category": "invoice",
+      "tags": [
+        "invoice",
+        "electricity bill",
+        "utility",
+        "finance",
+        "bill"
+      ],
+      "summary": "Monthly electricity bill for August 2025 showing 312 units consumed and an amount due of Rs. 1,860."
+    },
+    {
+      "slug": "broadband_bill",
+      "filename": "broadband_bill.pdf",
+      "title": "Broadband Internet Bill",
+      "category": "invoice",
+      "tags": [
+        "invoice",
+        "broadband",
+        "internet",
+        "utility",
+        "bill"
+      ],
+      "summary": "Monthly broadband internet bill for a 100 Mbps fibre plan costing Rs. 826 including taxes."
+    },
+    {
+      "slug": "course_fee_receipt",
+      "filename": "course_fee_receipt.pdf",
+      "title": "Online Course Fee Receipt",
+      "category": "invoice",
+      "tags": [
+        "invoice",
+        "course fee",
+        "education",
+        "receipt",
+        "finance"
+      ],
+      "summary": "Payment receipt for an online cybersecurity course fee of Rs. 4,999 paid by card."
+    },
+    {
+      "slug": "resume_software_developer",
+      "filename": "resume_software_developer.pdf",
+      "title": "Resume - Software Developer",
+      "category": "resume",
+      "tags": [
+        "resume",
+        "cv",
+        "software developer",
+        "python",
+        "react"
+      ],
+      "summary": "Resume of an MCA fresher applying for software developer roles with Python, React and SQL skills."
+    },
+    {
+      "slug": "resume_data_analyst",
+      "filename": "resume_data_analyst.pdf",
+      "title": "Resume - Data Analyst",
+      "category": "resume",
+      "tags": [
+        "resume",
+        "cv",
+        "data analyst",
+        "excel",
+        "power bi"
+      ],
+      "summary": "Resume for a data analyst fresher with Excel, SQL, Power BI and Python pandas experience."
+    },
+    {
+      "slug": "resume_placement",
+      "filename": "resume_placement.pdf",
+      "title": "Placement Resume - Campus Drive",
+      "category": "resume",
+      "tags": [
+        "resume",
+        "cv",
+        "placement",
+        "campus",
+        "fresher"
+      ],
+      "summary": "One page placement resume prepared for campus recruitment drives, listing academics and projects."
+    },
+    {
+      "slug": "resume_cybersecurity",
+      "filename": "resume_cybersecurity.pdf",
+      "title": "Resume - Cybersecurity Analyst Fresher",
+      "category": "resume",
+      "tags": [
+        "resume",
+        "cv",
+        "cybersecurity",
+        "security analyst",
+        "fresher"
+      ],
+      "summary": "Resume of a cybersecurity analyst fresher with network security, Wireshark and SIEM basics."
+    },
+    {
+      "slug": "resume_web_developer",
+      "filename": "resume_web_developer.pdf",
+      "title": "Resume - Web Developer Fresher",
+      "category": "resume",
+      "tags": [
+        "resume",
+        "cv",
+        "web developer",
+        "html",
+        "css"
+      ],
+      "summary": "Resume for a web developer fresher skilled in HTML, CSS, JavaScript, React and Tailwind CSS."
+    }
+  ],
+  "queries": [
+    {
+      "query": "Show my internship certificate",
+      "expected": [
+        "internship_certificate"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "Find Aadhaar",
+      "expected": [
+        "mock_aadhaar_card"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "Machine Learning Notes",
+      "expected": [
+        "ml_notes"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "Show my CV",
+      "expected": [
+        "resume_software_developer",
+        "resume_data_analyst",
+        "resume_placement",
+        "resume_cybersecurity",
+        "resume_web_developer"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "Passport",
+      "expected": [
+        "mock_passport"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "PAN card",
+      "expected": [
+        "mock_pan_card"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "electricity bill",
+      "expected": [
+        "electricity_bill"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "how much did my laptop cost",
+      "expected": [
+        "laptop_invoice"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "database normalization notes",
+      "expected": [
+        "dbms_notes"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "cybersecurity workshop attendance",
+      "expected": [
+        "cybersecurity_workshop_certificate"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "placement resume",
+      "expected": [
+        "resume_placement"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "internet bill",
+      "expected": [
+        "broadband_bill"
+      ],
+      "kind": "keyword"
+    },
+    {
+      "query": "proof that I worked at a company last summer",
+      "expected": [
+        "internship_certificate"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "query": "what do I owe the power company",
+      "expected": [
+        "electricity_bill"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "query": "papers to apply for jobs",
+      "expected": [
+        "resume_software_developer",
+        "resume_data_analyst",
+        "resume_placement",
+        "resume_cybersecurity",
+        "resume_web_developer"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "query": "how do computers share data over the internet",
+      "expected": [
+        "cn_notes"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "query": "government issued ID with a 12 digit number",
+      "expected": [
+        "mock_aadhaar_card"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "query": "my notes about algorithms that learn patterns",
+      "expected": [
+        "ml_notes"
+      ],
+      "kind": "paraphrase"
+    }
+  ]
+}

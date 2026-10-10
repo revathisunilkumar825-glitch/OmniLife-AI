@@ -1,0 +1,43 @@
+# ---- secrets ----
+.env
+*.pem
+*.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# ---- Node / frontend ----
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ---- runtime data (never commit users' files or the live database) ----
+database/app.db
+database/*.db
+*.sqlite3
+uploads/images/*
+uploads/pdf/*
+!uploads/images/.gitkeep
+!uploads/pdf/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.faiss
+faiss_index/
+
+# ---- AI model caches ----
+.cache/
+models_cache/
+.EasyOCR/
+
+# ---- editor / OS ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
